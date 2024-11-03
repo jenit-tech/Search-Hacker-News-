@@ -12,12 +12,7 @@ const Home = () => (
     <div className="home-page">
       <div className="home-page-content">
         <SearchBar />
-       
-           
-        
-       
-       
-      </div>
+    </div>
     </div>
   </div>
 )
