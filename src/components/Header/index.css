@@ -1,0 +1,131 @@
+.input-field-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .login-input-label {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 2px;
+    color: #f8fafc;
+  }
+  .login-input-field {
+    flex-grow: 1;
+    margin-top: 6px;
+    font-family: 'Roboto';
+    height: 40px;
+    padding: 5px 5px 5px 15px;
+    background-color: transparent;
+    border: 1px solid #64748b;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #f8fafc;
+    outline: none;
+    cursor: pointer;
+  }
+  .login-button {
+    width: 100%;
+    background-color: #6366f1;
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+  
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .error-msg {
+    margin-top: 2px;
+    margin-left: 4px;
+    color: #ff0b37;
+    font-family: 'Roboto';
+    font-size: 13px;
+  }
+  .navbar {
+    background-color: #ff742b;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-height: 50px;
+    width: 100%;
+  }
+  .nav-container {
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    /* border: 1px solid white; */
+  }
+  .nav-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Vertically centers items */
+    justify-content: space-around;
+  }
+  
+  .nav-heading {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .home-website-logo {
+    width: 48px !important;
+    margin: 10px;
+  }
+  
+  .nav-items {
+    background-color: #fff;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 6px;
+    width: 70%;
+  
+    /* border: 1px solid white; */
+  }
+  
+  .search-icon {
+    color: #ff742b;
+    height: 30px;
+    width: 30px;
+  }
+  
+  .search-input-field {
+    flex-grow: 1;
+    margin-top: 6px;
+    height: 40px;
+    padding: 5px 5px 5px 15px;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #f8fafc;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .algolia {
+    width: 88px !important;
+  }
+  
+  .logout-button-lg {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 22px;
+    color: #ff742b;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+  }
+  
